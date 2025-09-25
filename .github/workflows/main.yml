@@ -2,7 +2,7 @@ name: podcast workflow
 on: [push]
 jobs:
   build:
-      runs-on: ubentu-latest
+      runs-on: ubntu-latest
       steps:
         - name: Checkout 
           uses: actions/checkout@v5.0.0
