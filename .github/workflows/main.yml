@@ -8,7 +8,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name : Run Feed generator
+        
+      - name: Run Feed generator
         uses: bindu987654321/podcast-generator@main
-
-      
